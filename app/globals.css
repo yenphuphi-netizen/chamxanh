@@ -1,0 +1,31 @@
+@import '../styles/variables.css';
+@import '../styles/style.css';
+@import '../styles/header.css';
+@import '../styles/footer.css';
+@import '../styles/home.css';
+@import '../styles/product-detail.css';
+@import '../styles/cart.css';
+@import '../styles/checkout.css';
+@import '../styles/auth.css';
+@import '../styles/admin.css';
+
+/* Global Animations & Enhancements */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes scaleUp {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes toastIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}

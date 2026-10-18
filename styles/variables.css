@@ -1,0 +1,66 @@
+/**
+ * CHẠM XANH - DESIGN SYSTEM & TOKENS
+ * Bảng màu, typography, khoảng cách và hiệu ứng nhất quán cho mỹ phẩm thuần chay
+ */
+
+:root {
+  /* Màu nhấn chủ đạo - Xanh thực vật tự nhiên (Botanical Forest Green) */
+  --primary: #237446;
+  --primary-hover: #1b5e38;
+  --primary-active: #154b2c;
+  --primary-light: #eaf4ed;
+  --primary-surface: #f3f8f5;
+  --primary-border: #c8decb;
+
+  /* Màu phụ trợ & trung tính */
+  --color-earth: #6b5344;
+  --color-gold: #e5a93c;
+  --color-sale: #d94e34;
+
+  /* Màu chữ */
+  --text-main: #1e2922;       /* Chữ đen ngả rêu đậm cao cấp, dễ đọc */
+  --text-body: #3c4c41;       /* Chữ nội dung */
+  --text-muted: #627267;      /* Chữ phụ chú */
+  --text-light: #8e9e93;      /* Placeholder, icon phụ */
+
+  /* Nền & Thẻ */
+  --bg-page: #fcfdfc;         /* Nền tổng thể sáng và sạch */
+  --bg-card: #ffffff;         /* Nền thẻ trắng tinh khiết */
+  --bg-subtle: #f5f8f5;       /* Nền khối phụ, hero banner */
+  --bg-hover: #eef4ef;
+
+  /* Viền */
+  --border-subtle: #e6ede6;
+  --border-card: #e4ebe4;
+  --border-focus: #237446;
+
+  /* Bo góc (Bo nhẹ, mềm mại tự nhiên) */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+  --radius-pill: 9999px;
+
+  /* Bóng đổ nhẹ nhàng (Subtle shadows) */
+  --shadow-xs: 0 1px 3px rgba(24, 46, 31, 0.04);
+  --shadow-sm: 0 2px 8px rgba(24, 46, 31, 0.05);
+  --shadow-md: 0 6px 18px rgba(24, 46, 31, 0.07);
+  --shadow-lg: 0 12px 30px rgba(24, 46, 31, 0.09);
+  --shadow-card-hover: 0 10px 24px -4px rgba(35, 116, 70, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.03);
+
+  /* Typography */
+  --font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+
+  /* Layout & Spacing */
+  --container-max-width: 1240px;
+  --container-padding: 24px;
+  --header-height: 72px;
+
+  /* Hiệu ứng chuyển động */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
