@@ -216,7 +216,7 @@ export default function HomePage() {
             {/* Nguyên liệu 3: Bã cà phê nguyên chất */}
             <article className="ingredient-card">
               <div className="ingredient-thumb">
-                <img src="/assets/product/tẩy tế bào chết/Gemini_Generated_Image_r4nc8kr4nc8kr4nc.png" alt="Bã cà phê Robusta Đắk Lắk" loading="lazy" />
+                <img src="/assets/banner/ca-phe-dak-lak.jpg" alt="Bã cà phê Robusta Đắk Lắk" loading="lazy" />
                 <span className="ingredient-origin">
                   <svg className="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
